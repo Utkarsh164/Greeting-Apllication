@@ -36,7 +36,7 @@ Ensure you have the following installed:
 
 4. Navigate to the frontend folder and install dependencies:
    ```sh
-   cd ../frontend
+   cd frontend
    npm install
    ```
 
