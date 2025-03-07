@@ -54,18 +54,5 @@ Ensure you have the following installed:
 
 
 
-## API Endpoints
-### `GET /api/greet?name={userName}`
-- **Description**: Returns a personalized greeting message.
-- **Query Parameter**: `name` (string, required)
-- **Response**:
-  ```json
-  {
-    "message": "Hello, {userName}! Welcome to Younglabs."
-  }
-  ```
-
-
-
 
 
