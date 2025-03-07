@@ -23,15 +23,20 @@ Ensure you have the following installed:
    cd Greeting-Application
    ```
 
-2. Navigate to the backend folder and install dependencies:
+2. Install concurrently for managing frontend and backend together:
+   ```sh
+   npm install concurrently
+   ```
+
+3. Navigate to the backend folder and install dependencies:
    ```sh
    cd backend
    npm install
    ```
 
-3. Navigate to the frontend folder and install dependencies:
+4. Navigate to the frontend folder and install dependencies:
    ```sh
-   cd frontend
+   cd ../frontend
    npm install
    ```
 
@@ -47,12 +52,8 @@ Ensure you have the following installed:
    ```
 
 ## Running the Application
-   ```sh
+   
+```sh
    cd Greeting-Application
    npm start
-   ```
-
-
-
-
-
+```
