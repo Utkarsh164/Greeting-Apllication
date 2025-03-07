@@ -1,0 +1,21 @@
+{
+  "name": "screening",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utkarsh164/Greeting-Apllication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Utkarsh164/Greeting-Apllication/issues"
+  },
+  "homepage": "https://github.com/Utkarsh164/Greeting-Apllication#readme",
+  "description": ""
+}
